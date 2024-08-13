@@ -1,0 +1,105 @@
+{
+  "header": {
+    "for_importers": "Per gli importatori",
+    "for_producers": "Per i produttori",
+    "contacts": "Contatti",
+    "language": "Lingua"
+  },
+  "first": {
+    "title":   "<span class='green-border'>«UNCO Food Futures»</span>- Sistema<br> di preordine da parte dei clienti al dettaglio.",
+    "text_left": "La nostra soluzione aumenta le vostre entrate",
+    "text_right": {
+      "farmers": "per gli agricoltori",
+      "producers": "per i produttori",
+      "importers": "per gli importatori"
+    },
+    "button": "maggiori informazioni"
+  },
+  "second": {
+    "title": "I vostri profitti sono maggiori se avete:",
+    "items": {
+      "0": "Ordine diretto da parte del consumatore per i prodotti che si intende produrre/importare.",
+      "1": "Stabilità e sviluppo sostenibile del business",
+      "2": "Domanda e assortimento garantiti"
+    }
+  },
+  "third": {
+    "title": "UNCO si occupa sia della pubblicità che delle vendite!",
+    "title_text": "'UNCO Food Futures' Retail Smart Contract: ordini prepagati dai consumatori.",
+"subtitle": "I preordini sono",
+    "items": {
+      "0": "Pianificazione efficiente della produzione e della logistica",
+      "1": "Migliorare l'ecologia del pianeta",
+      "2": "Facilitare i processi aziendali per voi"
+    }
+  },
+  "fourth": {
+    "title": "'UNCO Food Futures' per gli agricoltori/produttori Mezzi risparmiati guadagnati",
+    "title_text1": "È uno strumento conveniente per gli agricoltori e i piccoli produttori: ad esempio, il latte può essere imbottigliato in diverse varianti di contenuto di grassi e in diversi contenitori, si possono produrre formaggi, polveri e yogurt... come anticipare la domanda?",
+    "title_text2": "Perché servono processi “extra” come l'inscatolamento, che aumentano i costi di produzione, se il prodotto è già ordinato e va direttamente al consumatore?",
+    "button": "Come funziona?",
+    "title_text3": "Sono possibili varie forme di prefinanziamento a seconda della vostra storia e del vostro rating."
+  },
+  "fifth": {
+    "title": "Soluzione 'UNCO Food Futures' per gli importatori",
+    "title_text1": "È molto più redditizio spedire ciò che è già stato ordinato.",
+    "title_text2": "I vostri trasporti, gli hub e il cross-docking iniziano a lavorare in modo più efficiente, perché state portando “frosh” già ordinati che possono essere spediti al cliente immediatamente. Riceverete il denaro non appena il cliente confermerà di aver ricevuto la quantità, l'assortimento e le specifiche appropriate.",
+    "button": "Come funziona?",
+    "title_text3": "Sono possibili diverse forme di prefinanziamento a seconda della storia e del rating."
+  },
+  "sixth": {
+    "title": "Come funziona?",
+    "items": {
+      "0": "L'utente inserisce le specifiche, il prezzo, il termine, il luogo e le altre condizioni di consegna sulla piattaforma di trading 'UNCO Exchange'.",
+      "1": "'UNCO Exchange' effettua offerte pubbliche iniziali e facilita gli acquirenti B2B e B2C. ",
+      "2": "Gli acquirenti selezionano e pagano i lotti inseriti nell'elenco.",
+      "3": "Gli Smart Contracts 'UNCO Food Futures' sono firmati e immessi in libera circolazione.",
+      "4": "Il giorno della consegna, la merce viene consegnata al rispettivo 'UNCO Eco-Point' dove il titolare del rispettivo contratto di fornitura accetta l'accettazione della merce e la conformità alle specifiche.",
+      "5": "Si riceve il pagamento (se si utilizzano altri strumenti di finanziamento, si firmano i relativi documenti, ecc.)",
+      "6": "Importante: “UNCO Food Futures” è uno strumento di vendita al dettaglio: tutti i prodotti devono essere confezionati in imballaggi “retail”, non superiori a 5 kg."
+    }
+  },
+  "seventh": {
+    "title": "«'UNCO Food Futures' e i nostri 'UNCO Eco-Points' sono disponibili:",
+    "items": {
+      "0": "presso le stazioni di servizio",
+      "1": "Nei caffè",
+      "2": "nei negozi di alimentari"
+    },
+    "map_title": "L'elenco dei nostri partner è in continua espansione"
+  },
+  "eighth": {
+    "title": "Domande frequenti:",
+    "questions": {
+      "1": "Perché dovrei vendere un prodotto sotto forma di futures, dov'è il mio vantaggio?",
+      "2": "Quali permessi sono necessari per poter vendere sul vostro sito?",
+      "3": "Quali requisiti devo soddisfare per vendere sul vostro sito?",
+      "4": "Quando riceverò il pagamento del prodotto?",
+      "5": "Come si diventa venditori di futures alimentari?"
+    },
+    "answers": {
+      "1": "Vendete i prodotti durante la pianificazione della produzione, quindi sapete esattamente cosa compreranno da voi.Potete offrire diverse varianti del prodotto finale e sapere esattamente cosa compreranno i clienti. Ad esempio, se producete latte, potete offrire confezioni di diverse dimensioni, diversi contenuti di grassi e diversi tempi di conservazione.",
+      "2": "Dovete avere tutti i documenti richiesti dal vostro mercato locale. I vostri prodotti e il vostro processo produttivo devono essere accompagnati dalla documentazione richiesta dal vostro mercato locale.",
+      "3": "La quantità minima di prodotto deve essere confezionata singolarmente ed ermeticamente e avere una temperatura di conservazione di almeno zero gradi Celsius.",
+      "4": "Il pagamento della merce sarà ricevuto al momento della conferma da parte dell'acquirente, in base alla quantità, alla qualità e alle specifiche. In caso di controversia, gli specialisti UNCO agiranno come arbitri. Il meccanismo di risoluzione viene elaborato congiuntamente, fino al coinvolgimento di esperti indipendenti (vedi condizioni contrattuali).",
+      "5": "È necessario presentare una domanda"
+    },
+    "btn" : "Presentare una richiesta"
+  },
+  "ninth": {
+    "questions": "Siate i PRIMI su 30 a connettervi gratuitamente",
+    "method_of_communication": "Metodo di comunicazione",
+    "phone_number": "Numéro de téléphone",
+    "email": "Courriel",
+    "messenger_link": "Le lien vers le messager",
+    "social_network_link": "Lien vers les médias sociaux",
+    "enter_contact_info": "Saisir les informations de contact",
+    "paste_messenger_link": "Insérer un lien vers le messager",
+    "paste_social_network_link": "Insérer un lien vers un média social",
+    "message": "Message",
+    "enter_message": "Saisissez votre message",
+    "send": "Lasciare una richiesta"
+  }
+}
+
+  

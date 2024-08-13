@@ -1,0 +1,103 @@
+{
+  "header": {
+    "for_importers": "Para importadores",
+    "for_producers": "Para fabricantes",
+    "contacts": "Contactos",
+    "language": "Idioma"
+  },
+  "first": {
+    "title":   "<span class='green-border'>«UNCO Food Futures»</span>- Sistema<br> de pedidos anticipados  a clientes minoristas.",
+    "text_left": "Nuestra solución aumenta sus ingresos",
+    "text_right": {
+      "farmers": "para agricultores",
+      "producers": "para productores",
+      "importers": "para importadores"
+    },
+    "button": "más información"
+  },
+  "second": {
+    "title": "Tus beneficios son mayores si TIENES:",
+    "items": {
+      "0": "Pedido directo del consumidor para productos que sólo piensa producir/importar",
+      "1": "Estabilidad y desarrollo empresarial sostenible",
+      "2": "Demanda y surtido garantizados"
+    }
+  },
+  "third": {
+    "title": "UNCO se encarga tanto de la publicidad como de las ventas!",
+    "title_text": "«UNCO Food Futures» Retail Smart Contract: pedidos prepagados de los consumidores.",
+    "subtitle": "Los pedidos anticipados son",
+    "items": {
+      "0": "Planificación eficaz de la producción y la logística",
+      "1": "Mejorar la ecología del planeta",
+      "2": "Facilitarle los procesos empresariales"
+    }
+  },
+  "fourth": {
+    "title": "«UNCO Food Futures» para agricultores/productores Medios ahorrados ganados",
+    "title_text1": "Es una herramienta cómoda para ganaderos y pequeños productores: por ejemplo, se puede envasar leche en diversas variantes de contenido graso y en distintos recipientes, hacer queso, polvo y yogur... ¿cómo anticiparse a la demanda?",
+    "title_text2": "¿Por qué se necesitan procesos «extra» como el enlatado, que aumentan el coste de producción, si el producto ya está pedido y va directamente al consumidor?",
+    "button": "¿Cómo funciona?",
+    "title_text3": "Existen varias formas de prefinanciación en función de su historial y calificación."
+  },
+  "fifth": {
+    "title": "Solución «UNCO Food Futures» para importadores",
+    "title_text1": "Es mucho más rentable enviar lo que ya se ha pedido.",
+    "title_text2": "El transporte, los centros de distribución y el cross-docking empiezan a funcionar de forma más eficiente, porque usted trae productos ya pedidos que pueden enviarse inmediatamente al cliente. Usted recibe el dinero en cuanto el cliente confirma la recepción de la cantidad, el surtido y las especificaciones adecuadas.",
+    "button": "¿Cómo funciona?",
+    "title_text3": "Son posibles varias formas de prefinanciación en función del historial y la calificación."
+  },
+  "sixth": {
+    "title": "¿Cómo funciona?",
+    "items": {
+      "0": "Ponga las especificaciones, el precio, el plazo, el lugar y otras condiciones de entrega en la plataforma de negociación 'UNCO Exchange'.",
+      "1": "'UNCO Exchange' realiza ofertas públicas iniciales y facilita a los compradores B2B y B2C.",
+      "2": "Los compradores seleccionan y pagan los lotes que usted pone en venta",
+      "3": "Los contratos inteligentes «UNCO Food Futures» se firman y se ponen en libre circulación",
+      "4": "El día de la entrega, los bienes se entregan en el respectivo 'Eco-Punto UNCO' donde el titular del respectivo contrato de suministro acepta la aceptación de los bienes y la conformidad con la especificación",
+      "5": "Recibe el pago (si se utilizan otros instrumentos de financiación, se firman los documentos pertinentes, etc.)",
+      "6": "Importante: «UNCO Food Futures» es un instrumento de venta al por menor: todos los productos deben envasarse en envases « de venta al por menor », que no superen los 5 kg."
+    }
+  },
+  "seventh": {
+    "title": "'UNCO Food Futures' y nuestros 'Eco-Puntos UNCO' están disponibles:",
+    "items": {
+      "0": "en las gasolineras",
+      "1": "En los cafés",
+      "2": "en las tiendas de comestibles"
+    },
+    "map_title": "La lista de nuestros socios se amplía constantemente"
+  },
+  "eighth": {
+    "title": "Preguntas más frecuentes:",
+    "questions": {
+      "1": "¿Por qué iba a vender un producto en forma de futuros, dónde está mi beneficio?",
+      "2": "¿Qué permisos son necesarios para poder vender en su sitio?",
+      "3": "¿Qué requisitos debo cumplir para vender en su sitio?",
+      "4": "¿Cuándo recibiré el pago del producto?",
+      "5": "¿Cómo se llega a ser vendedor de futuros alimentarios?"
+    },
+    "answers": {
+      "1": "Usted vende los productos durante la planificación de la producción, por lo que sabe exactamente lo que le van a comprar. Puede ofrecer diversas variantes del producto final y saber exactamente lo que van a comprar. Por ejemplo, si produce leche, puede ofrecer distintos tamaños de envase, distintos contenidos de grasa y distintos tiempos de conservación.",
+      "2": "Debe disponer de todos los documentos exigidos por su mercado local. Sus productos y su proceso de producción deben ir acompañados de la documentación exigida por su mercado local.",
+      "3": "La cantidad mínima de producto debe estar envasada individual y herméticamente y tener una temperatura de almacenamiento de al menos cero grados centígrados.",
+      "4": "El pago de las mercancías se recibirá en el momento de la confirmación por parte del comprador, de acuerdo con la cantidad, calidad y especificaciones. En caso de litigio, los especialistas de la UNCO actuarán como árbitros. El mecanismo de resolución se elabora conjuntamente, hasta la participación de expertos independientes (véanse las condiciones contractuales).",
+      "5": "Debe presentar una solicitud"
+    },
+    "btn" : "Enviar una solicitud"
+  },
+  "ninth": {
+    "questions": "Sé el PRIMERO de 30 en conectarte gratis",
+    "method_of_communication": "Método de comunicación",
+    "phone_number": "Numéro de téléphone",
+    "email": "Courriel",
+    "messenger_link": "Le lien vers le messager",
+    "social_network_link": "Lien vers les médias sociaux",
+    "enter_contact_info": "Saisir les informations de contact",
+    "paste_messenger_link": "Insérer un lien vers le messager",
+    "paste_social_network_link": "Insérer un lien vers un média social",
+    "message": "",
+    "enter_message": "Saisissez votre message",
+    "send": "Dejar una solicitud"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "header": {
+    "for_importers": "Für Importeure",
+    "for_producers": "Für Hersteller",
+    "contacts": "Kontakte",
+    "language": "Sprache"
+  },
+  "first": {
+    "title": "<span class='green-border'>“UNCO Food Futures”</span>— Ein Vorbestellungssystem von Einzelhandelskunden.",
+    "text_left": "Unsere Lösung erhöht Ihr Einkommen",
+    "text_right": {
+      "farmers": "Bauern",
+      "producers": "Hersteller",
+      "importers": "Importeure"
+    },
+    "button": "Mehr erfahren"
+  },
+  "second": {
+    "title": "Ihr Gewinn ist größer, wenn Sie HABEN:",
+    "items": {
+      "0": "Direkte Bestellung vom Verbraucher für die Produkte, die Sie produzieren/importieren wollen",
+      "1": "Stabilität und nachhaltige Geschäftsentwicklung",
+      "2": "Garantierte Nachfrage und Sortiment"
+    }
+  },
+  "third": {
+    "title": "UNCO kümmert sich sowohl um die Werbung als auch um den Verkauf!",
+    "title_text": "Einzelhandels-Smart-Contract “UNCO Food Futures”: Vorausbezahlte Bestellung von Verbrauchern.",
+    "subtitle": "Vorbestellungen sind",
+    "items": {
+      "0": "Effiziente Produktions- und Logistikplanung",
+      "1": "Verbesserung der Ökologie unseres Planeten",
+      "2": "Erleichterung der Geschäftsprozesse für Sie"
+    }
+  },
+  "fourth": {
+    "title": "“UNCO Food Futures” für Bauern/Hersteller - Gespart bedeutet verdient",
+    "title_text1": "Dies ist ein praktisches Instrument für Bauern und kleine Hersteller: Milch kann zum Beispiel mit unterschiedlichem Fettgehalt und in verschiedenen Behältern abgefüllt werden, Käse, Pulver und Joghurt hergestellt werden… wie kann man die Nachfrage vorhersagen?",
+    "title_text2": "Warum kostentreibende 'zusätzliche' Prozesse wie Konservierung hinzufügen - wenn das Produkt bereits bestellt ist und direkt an den Verbraucher geht?",
+    "button": "Wie funktioniert es?",
+    "title_text3": "Verschiedene Formen der Vorfinanzierung sind je nach Ihrer Geschichte und Bewertung möglich."
+  },
+  "fifth": {
+    "title": "Die “UNCO Food Futures”-Lösung für Importeure",
+    "title_text1": "Es ist viel profitabler, etwas zu liefern, was bereits bestellt wurde.",
+    "title_text2": "Ihr Transport, Ihre Hubs und Ihr Cross-Docking arbeiten effizienter - weil Sie bereits bestellte 'Frischware' transportieren, die sofort an den Verbraucher geliefert werden kann. Sie erhalten das Geld, sobald der Käufer den Erhalt der entsprechenden Menge, des Sortiments und der Spezifikation bestätigt.",
+    "button": "Wie funktioniert es?",
+    "title_text3": "Verschiedene Formen der Vorfinanzierung sind je nach Ihrer Geschichte und Bewertung möglich."
+  },
+  "sixth": {
+    "title": "Wie funktioniert es?",
+    "items": {
+      "0": "Sie geben die Spezifikation, den Preis, die Zeit, den Ort und andere Lieferbedingungen auf dem 'UNCO Exchange'-Marktplatz an",
+      "1": "'UNCO Exchange' führt die Erstplatzierung durch und hilft, B2B- und B2C-Käufer anzuziehen.",
+      "2": "Käufer wählen und bezahlen die Lose, auf die Sie bieten",
+      "3": "UNCO Food Futures Smart Contracts werden unterzeichnet und in den freien Verkehr gegeben",
+      "4": "Am Tag der Lieferung wird die Ware an den jeweiligen UNCO Eco-Points angeliefert, wo der Inhaber des jeweiligen Liefervertrages die Annahme der Ware und die Einhaltung der Spezifikation bestätigt",
+      "5": "Sie erhalten die Zahlung (wenn andere Finanzierungsinstrumente verwendet werden, werden die entsprechenden Dokumente unterzeichnet, usw.)",
+      "6": "Wichtig: 'UNCO Food Futures' ist ein Einzelhandelswerkzeug: Alle Produkte müssen in 'Einzelhandelsverpackungen' verpackt sein, nicht mehr als 5 kg."
+    }
+  },
+  "seventh": {
+    "title": "“UNCO Food Futures” und unsere “UNCO Eco-Point” sind verfügbar:",
+    "items": {
+      "0": "an Tankstellen",
+      "1": "in Cafés",
+      "2": "in Lebensmittelgeschäften"
+    },
+    "map_title": "Unsere Liste der Partner erweitert sich ständig"
+  },
+  "eighth": {
+    "title": "Häufig gestellte Fragen:",
+    "questions": {
+      "1": "Warum sollte ich das Produkt als Futures verkaufen, wo ist mein Vorteil?",
+      "2": "Welche Genehmigungen benötige ich, um auf Ihrer Plattform verkaufen zu können?",
+      "3": "Welche Anforderungen muss ich erfüllen, um auf Ihrer Plattform verkaufen zu können?",
+      "4": "Wann erhalte ich die Zahlung für das Produkt?",
+      "5": "Wie wird man Verkäufer von Food Futures?"
+    },
+    "answers": {
+      "1": "Sie verkaufen das Produkt in der Produktionsplanungsphase und wissen sicher, dass Sie Käufer haben werden. Sie können mehrere Optionen für das Endprodukt anbieten und wissen sicher, was gekauft wird. Beispiel: Wenn Sie Milch produzieren, kann es verschiedene Verpackungsvolumina/unterschiedlichen Fettgehalt/unterschiedliche Haltbarkeit haben.",
+      "2": "Es werden alle Dokumente benötigt, die auf Ihrem lokalen Markt erforderlich sind. Ihr Produkt und der Produktionsprozess müssen über die auf Ihrem lokalen Markt erforderliche Dokumentation verfügen.",
+      "3": "Das Mindestquantum des Produkts muss individuell und hermetisch verpackt sein und eine Lagertemperatur von nicht unter null Grad haben.",
+      "4": "Sie erhalten die Zahlung für die Ware nach Bestätigung durch den Käufer, entsprechend der Menge, Qualität und Spezifikation. Bei Streitigkeiten wird ein Streitfall eröffnet, bei dem UNCO-Spezialisten als Schiedsrichter fungieren. Ein Lösungsmechanismus wird gemeinsam entwickelt, einschließlich der Einladung unabhängiger Experten (siehe Vertragsbedingungen).",
+      "5": "Sie müssen einen Antrag stellen."
+    },
+    "btn" : "Eine Anfrage einreichen"
+  },
+  "ninth": {
+    "questions": "Seien Sie der ERSTE von 30, der sich kostenlos anschließt",
+    "method_of_communication": "Kommunikationsmethode",
+    "phone_number": "Telefonnummer",
+    "email": "E-Mail",
+    "messenger_link": "Messenger-Link",
+    "social_network_link": "Link zum sozialen Netzwerk",
+    "enter_contact_info": "Kontaktinformationen eingeben",
+    "paste_messenger_link": "Messenger-Link einfügen",
+    "paste_social_network_link": "Link zum sozialen Netzwerk einfügen",
+    "message": "Nachricht",
+    "enter_message": "Geben Sie Ihre Nachricht ein",
+    "send": "Eine Anfrage hinterlassen"
+  }
+}

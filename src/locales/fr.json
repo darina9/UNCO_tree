@@ -1,0 +1,103 @@
+{
+  "header": {
+    "for_importers": "Pour les importateurs",
+    "for_producers": "Pour les fabricants",
+    "contacts": "Contacts",
+    "language": "Langue"
+  },
+  "first": {
+    "title":   "<span class='green-border'>«UNCO Food Futures»</span>- Système<br> de pré-commande auprès des détaillants.",
+    "text_left": "Notre solution augmente vos revenus",
+    "text_right": {
+      "farmers": "pour les agriculteurs",
+      "producers": "pour les producteurs",
+      "importers": "pour les importateurs"
+    },
+    "button": "Plus d'informations"
+  },
+  "second": {
+    "title": "Vos bénéfices sont plus importants si vous avez :",
+    "items": {
+      "0": "Commande directe du consommateur pour les produits que vous envisagez uniquement de produire/importer",
+      "1": "Stabilité et développement durable des entreprises",
+      "2": "Demande et assortiment garantis"
+    }
+  },
+  "third": {
+    "title": "UNCO s'occupe à la fois de la publicité et de la vente!",
+    "title_text": "Contrat intelligent de vente au détail « UNCO Food Futures » : commandes prépayées par les consommateurs.",
+    "subtitle": "Les précommandes sont",
+    "items": {
+      "0": "Planification efficace de la production et de la logistique",
+      "1": "Améliorer l'écologie de la planète",
+      "2": "Faciliter les processus d'entreprise pour vous"
+    }
+  },
+  "fourth": {
+    "title": "« UNCO Food Futures » pour les agriculteurs/producteurs Moyens économisés gagnés",
+    "title_text1": "C'est un outil pratique pour les agriculteurs et les petits producteurs : par exemple, le lait peut être mis en bouteille dans plusieurs variantes de teneur en matière grasse et dans différents contenants, le fromage, la poudre et le yaourt peuvent être fabriqués... comment anticiper la demande?",
+    "title_text2": "Pourquoi avoir besoin de procédés « supplémentaires » comme la mise en conserve, qui augmentent le coût de production, si le produit est déjà commandé et va directement au consommateur?",
+    "button": "Comment ça marche?",
+    "title_text3": "Différentes formes de préfinancement sont possibles en fonction de vos antécédents et de votre solvabilité."
+  },
+  "fifth": {
+    "title": "Solution « UNCO Food Futures » pour les importateurs",
+    "title_text1": "Il est beaucoup plus rentable d'expédier ce qui a déjà été commandé.",
+    "title_text2": "Vos moyens de transport, vos plates-formes et le cross-docking commencent à fonctionner plus efficacement, car vous apportez des produits déjà commandés qui peuvent être expédiés immédiatement au client. Vous recevez l'argent dès que le client confirme la réception de la quantité, de l'assortiment et des spécifications appropriés.",
+    "button": "Comment ça marche?",
+    "title_text3": "Différentes formes de préfinancement sont possibles en fonction des antécédents et de la notation."
+  },
+  "sixth": {
+    "title": "Comment ça marche?",
+    "items": {
+      "0": "Vous indiquez les spécifications, le prix, le délai, le lieu et les autres conditions de livraison sur la plate-forme de négociation “UNCO Exchange”",
+      "1": "“UNCO Exchange” réalise des offres publiques initiales et facilite les achats B2B et B2C.",
+      "2": "Les acheteurs sélectionnent et paient les lots que vous proposez.",
+      "3": "Les contrats intelligents “UNCO Food Futures” sont signés et mis en libre circulation.",
+      "4": "Le jour de la livraison, les marchandises sont livrées à l' “écopoint UNCO” concerné, où le titulaire du contrat de fourniture concerné accepte la réception des marchandises et la conformité à la spécification.",
+      "5": "Vous recevez le paiement (si d'autres instruments de financement sont utilisés, les documents pertinents sont signés, etc.)",
+      "6": "Important : «UNCO Food Futures» est un instrument de vente au détail : tous les produits doivent être conditionnés dans des emballages « de vente au détail » ne dépassant pas 5 kg."
+    }
+  },
+  "seventh": {
+    "title": "«Les «UNCO Food Futures» et nos «UNCO Food Futures» sont disponibles:",
+    "items": {
+      "0": "dans les stations-service",
+      "1": "Dans les cafés",
+      "2": "dans les épiceries"
+    },
+    "map_title": "La liste de nos partenaires s'allonge constamment"
+  },
+  "eighth": {
+    "title": "Questions fréquemment posées:",
+    "questions": {
+      "1": "Pourquoi vendrais-je un produit sous forme de contrats à terme, où est mon avantage?",
+      "2": "Quelles sont les autorisations nécessaires pour pouvoir vendre sur votre site?",
+      "3": "Quelles sont les conditions à remplir pour vendre sur votre site?",
+      "4": "Quand recevrai-je le paiement des produits?",
+      "5": "Comment devient-on vendeur de produits alimentaires à terme?"
+    },
+    "answers": {
+      "1": "Vous vendez des produits pendant la planification de la production, vous savez exactement ce qu'ils vous achèteront.Vous pouvez proposer plusieurs variantes du produit final et savoir exactement ce qu'ils achèteront. Par exemple, si vous produisez du lait, vous pouvez proposer différentes tailles d'emballage, différentes teneurs en matières grasses et différentes durées de conservation.",
+      "2": "Vous devez disposer de tous les documents requis par votre marché local.Vos produits et votre processus de production doivent être accompagnés de la documentation requise par votre marché local.",
+      "3": "La quantité minimale de produit doit être emballée individuellement et hermétiquement et avoir une température de stockage d'au moins zéro degré Celsius.",
+      "4": "Le paiement des marchandises sera reçu au moment de la confirmation de l'acheteur, conformément à la quantité, à la qualité et aux spécifications.En cas de litige, un contentieux est ouvert, où les spécialistes de l'UNCO agissent en tant qu'arbitres. Le mécanisme de résolution est élaboré conjointement, jusqu'à l'intervention d'experts indépendants (voir les conditions contractuelles).",
+      "5": "Vous devez soumettre une demande de participation"
+    },
+    "btn" : "Soumettre une demande"
+  },
+  "ninth": {
+    "questions": "Soyez le PREMIER sur 30 à vous connecter gratuitement",
+    "method_of_communication": "Méthode de communication",
+    "phone_number": "Numéro de téléphone",
+    "email": "Courriel",
+    "messenger_link": "Le lien vers le messager",
+    "social_network_link": "Lien vers les médias sociaux",
+    "enter_contact_info": "Saisir les informations de contact",
+    "paste_messenger_link": "Insérer un lien vers le messager",
+    "paste_social_network_link": "Insérer un lien vers un média social",
+    "message": "",
+    "enter_message": "Saisissez votre message",
+    "send": "Déposer une demande"
+  }
+}

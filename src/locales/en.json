@@ -1,0 +1,116 @@
+{
+  "header": {
+    "for_importers": "For Importers",
+    "for_producers": "For Producers",
+    "contacts": "Contacts",
+    "language": "Language"
+  },
+  "first": {
+    "title": "<span class='green-border'>“UNCO Food Futures”</span>— Pre-order system from retail customers.",
+    "text_left": "Our solution increases your revenue",
+    "text_right": {
+      "farmers": "for farmers",
+      "producers": "for producers",
+      "importers": "for importers"
+    },
+    "button": "Learn More"
+  },
+  "second": {
+    "title": "Your profit is greater if you HAVE:",
+    "items": {
+      "0": "Direct order from the consumer for products you are only planning to produce/import",
+      "1": "Stability and sustainable business development",
+      "2": "Guaranteed demand and assortment"
+    }
+  },
+  "third": {
+    "title": "UNCO takes care of both advertising and sales!",
+    "title_text": "Retail Smart Contract “UNCO Food Futures”: prepaid order from consumers.",
+    "subtitle": "Pre-orders are",
+    "items": {
+      "0": "Efficient production and logistics planning",
+      "1": "Improvement of the ecology",
+      "2": "Facilitating business processes for you"
+    }
+  },
+  "fourth": {
+    "title": "“UNCO Food Futures” for farmers/producers - Saved means earned",
+    "title_text1": "It is a convenient tool for farmers and small producers: for example, milk can be bottled in several fat content variants and in different containers, cheese, powder and yogurt can be made... how to anticipate demand?",
+    "title_text2": "Why add cost-increasing 'extra' processes like canning - if the product is already ordered and goes directly to the consumer?",
+    "button": "How it works?",
+    "title_text3": "Various forms of pre-financing are possible depending on your history and rating."
+  },
+  "fifth": {
+    "title": "The “UNCO Food Futures” solution for importers",
+    "title_text1": "It is much more profitable to ship what have already been ordered.",
+    "title_text2": "Your transport, hubs, and cross-docking start working more efficiently - because you are transporting already ordered 'fresh' which can be immediately shipped to the consumer. You get the money as soon as the buyer confirms the receipt of the corresponding quantity, assortment, and specification.",
+    "button": "How it works?",
+    "title_text3": "Various forms of pre-financing are possible depending on your history and rating."
+  },
+  "sixth": {
+    "title": "How it works?",
+    "items": {
+      "0": "You put the specification, price, term, place and other terms of delivery on the trading platform “UNCO Exchange”",
+      "1": "'UNCO Exchange' does initial public offerings and facilitates B2B and B2C buyers.",
+      "2": "Buyers select and pay for the lots you list",
+      "3": "'UNCO Food Futures' Smart Contracts are signed and released into free circulation",
+      "4": "On the day of delivery, the goods are delivered to the respective 'UNCO Eco-Point' where the holder of the respective supply contract accepts acceptance of the goods and conformity with the specification",
+      "5": "You receive payment (if other financing instruments are used, the relevant documents are signed, etc.)",
+      "6": "Important: 'UNCO Food Futures' is a retail tool: all products must be packaged in 'retail' packaging, not exceeding 5 kg."
+    }
+  },
+  "seventh": {
+    "title": "“UNCO Food Futures” and our “UNCO Eco-Point” are available:",
+    "items": {
+      "0": "at gas stations",
+      "1": "in cafes",
+      "2": "in grocery stores"
+    },
+    "map_title": "The list of our partners is constantly expanding"
+  },
+  "eighth": {
+    "title": "Frequently Asked Questions:",
+    "questions": {
+      "1": "Why should I sell the product as futures, where is my benefit?",
+      "2": "What permits do I need to be able to sell on your platform?",
+      "3": "What requirements do I have to meet to sell on your platform?",
+      "4": "When will I receive payment for the goods?",
+      "5": "How do you become a food futures seller?"
+    },
+    "answers": {
+      "1": "You sell products at the time of production planning, you know exactly what they will buy from you.You can offer several variants of the final product and you know exactly what they will buy. Example: if you produce milk, it could be: different pack sizes/different fat content/different shelf life.",
+      "2": "You need to have all the documentation required in your local market. Your products and production process must have the documentation required in your local market",
+      "3": "The minimum quantum of the product must be individually and hermitically packaged and have a storage temperature of at least zero degrees Celsius.",
+      "4": "Payment for the goods will be received at the moment of confirmation from the buyer, in accordance with the quantity, quality and specification.In case of disputes, a dispute is opened, where UNCO specialists are arbitrators. A solution mechanism is worked out jointly, up to inviting independent experts (see the terms of the contract).",
+      "5": "You need to submit an application."
+    },
+    "btn" : "Submit a request"
+  },
+  "ninth": {
+    "questions": "Be the FIRST of 30 to connect for free",
+    "method_of_communication": "Communication method",
+    "phone_number": "Phone number",
+    "email": "E-mail",
+    "messenger_link": "Messenger link",
+    "social_network_link": "Social network link",
+    "enter_contact_info": "Enter contact information",
+    "paste_messenger_link": "Paste messenger link",
+    "paste_social_network_link": "Paste social network link",
+    "message": "Message",
+    "enter_message": "Enter your message",
+    "send": "Submit request"
+  },
+
+  "footer": {
+    "other_services": "Other services we offer:",
+    "uff_retail": "UFF for retail customers",
+    "uff_market": "UFF market",
+    "uff_investors": "UFF for investors",
+    "eco_points": "Eco points",
+    "uff_online_shops": "UFF for online shops",
+    "unco_nft": "UNCO NFT 888",
+    "contact_us": "Contact Us",
+    "disclaimer": "All rights reserved. Any parts of this presentation are subject to change by the owner at any time without prior notice. This presentation or parts of it does not form a business proposal or part of a contract. Items are approximate and subject to negotiation. Any copying and use for commercial purposes requires the written consent of the copyright holder.",
+    "disclosure": "*All figures, designations, abbreviations and data in this web pages are solely for the purpose of explaining the pattern of operation, are not based on actual facts and events and may not be used for any other purpose (including but not limited to: investment decisions, buying, education, predictions) other than a general understanding of the business model. Trading services are provided by third-party companies under the relevant agreements and licenses of the respective countries where the sales and other transactions take place. Past performance is not a reliable indicator of future results. Your returns may increase or decrease as a result of currency fluctuations. Your capital is at risk. View Trading Disclosures on the websites of the respective trading platforms."
+  }
+}
