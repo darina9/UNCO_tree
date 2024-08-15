@@ -349,15 +349,31 @@
   </style>
    -->
 
-   <template>
-    <div :class="treeContainerClass" ref="treeContainer">
-      <img src="../assets/img/state_winter.svg" class="tree" ref="tree" />
-      <img src="../assets/img/spring.svg" class="leaves leaves_spring" ref="leavesSpring" />
-      <img src="../assets/img/green.svg" class="leaves leaves_summer" ref="leavesSummer" />
-      <img src="../assets/img/autumn.svg" class="leaves leaves_apples" ref="leavesApples" />
-      <img src="../assets/img/green.svg" class="leaves leaves_autumn" ref="leavesAutumn" />
-    </div>
-  </template>
+      <template>
+  <div :class="treeContainerClass" ref="treeContainer">
+    <img src="../assets/img/state_winter.svg" class="tree" ref="tree" />
+    <img
+      src="../assets/img/spring.svg"
+      class="leaves leaves_spring"
+      ref="leavesSpring"
+    />
+    <img
+      src="../assets/img/green.svg"
+      class="leaves leaves_summer"
+      ref="leavesSummer"
+    />
+    <img
+      src="../assets/img/autumn.svg"
+      class="leaves leaves_apples"
+      ref="leavesApples"
+    />
+    <img
+      src="../assets/img/green.svg"
+      class="leaves leaves_autumn"
+      ref="leavesAutumn"
+    />
+  </div>
+</template>
   
   <script>
 import { ref, onMounted, onBeforeUnmount, watch, computed } from "vue";
@@ -377,25 +393,24 @@ export default {
     const leavesApples = ref(null);
     const leavesAutumn = ref(null);
 
-    const isTablet = () => window.innerWidth >= 768 && window.innerWidth <= 1439;
-    const isMobile = () => window.innerWidth < 768 ;
+    const isTablet = () =>
+      window.innerWidth >= 768 && window.innerWidth <= 1439;
+    const isMobile = () => window.innerWidth < 768;
     const updateTreePosition = () => {
       if (treeContainer.value) {
         if (isTablet()) {
           treeContainer.value.style.top = "100px";
-          treeContainer.value.style.left = "-9%";
+          treeContainer.value.style.left = "-69px";
           treeContainer.value.style.width = "256px";
           treeContainer.value.style.height = "470px";
           treeContainer.value.style.bottom = "";
-        } 
-        else if (isMobile()) {
+        } else if (isMobile()) {
           treeContainer.value.style.top = "";
           treeContainer.value.style.left = "";
           treeContainer.value.style.width = "281px";
           treeContainer.value.style.height = "514px";
           treeContainer.value.style.bottom = "0";
-        } 
-        else {
+        } else {
           treeContainer.value.style.top = "";
           treeContainer.value.style.left = "0";
           treeContainer.value.style.width = "402px";
@@ -423,59 +438,67 @@ export default {
       }
 
       console.log(`Current component index: ${currentComponentIndex}`);
-      
 
       // Проверяем, существуют ли элементы, перед тем как выполнять с ними операции
-      if (leavesSpring.value && leavesSummer.value && leavesApples.value && leavesAutumn.value) {
-        leavesSpring.value.classList.remove('active');
-        leavesSummer.value.classList.remove('active');
-        leavesApples.value.classList.remove('active');
-        leavesAutumn.value.classList.remove('active');
+      if (
+        leavesSpring.value &&
+        leavesSummer.value &&
+        leavesApples.value &&
+        leavesAutumn.value
+      ) {
+        leavesSpring.value.classList.remove("active");
+        leavesSummer.value.classList.remove("active");
+        leavesApples.value.classList.remove("active");
+        leavesAutumn.value.classList.remove("active");
 
         if (currentComponentIndex < 3) {
-          leavesSpring.value.classList.add('active');
+          leavesSpring.value.classList.add("active");
         } else if (currentComponentIndex >= 3 && currentComponentIndex < 5) {
-          leavesSummer.value.classList.add('active');
+          leavesSummer.value.classList.add("active");
         } else if (currentComponentIndex >= 5 && currentComponentIndex < 7) {
-          leavesApples.value.classList.add('active');
+          leavesApples.value.classList.add("active");
         } else if (currentComponentIndex >= 7) {
-          leavesAutumn.value.classList.add('active');
+          leavesAutumn.value.classList.add("active");
         }
       }
     };
 
     const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      const footerTop = entry.boundingClientRect.top;
-      const treeHeight = treeContainer.value.offsetHeight;
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const footerTop = entry.boundingClientRect.top;
+          const treeHeight = treeContainer.value.offsetHeight;
 
-      if (treeContainer.value) {
-        treeContainer.value.style.position = "absolute";
-      
-        if (isTablet()) {
-          treeContainer.value.style.top = `${window.scrollY + footerTop - treeHeight - 280}px`; 
-        } 
-        else if (isMobile()) {
-          treeContainer.value.style.top = `${window.scrollY + footerTop - treeHeight }px`; // 100px выше топа футера
-        } 
-        else {
-          treeContainer.value.style.top = `${window.scrollY + footerTop - treeHeight}px`;
-        }
-      }
-    } else {
-      if (treeContainer.value) {
-        treeContainer.value.style.position = "fixed";
-        updateTreePosition();
-      }
+          if (treeContainer.value) {
+            treeContainer.value.style.position = "absolute";
+
+            if (isTablet()) {
+              treeContainer.value.style.top = `${
+                window.scrollY + footerTop - treeHeight - 280
+              }px`;
+            } else if (isMobile()) {
+              treeContainer.value.style.top = `${
+                window.scrollY + footerTop - treeHeight
+              }px`; // 100px выше топа футера
+            } else {
+              treeContainer.value.style.top = `${
+                window.scrollY + footerTop - treeHeight
+              }px`;
+            }
+          }
+        } else {
+          if (treeContainer.value) {
+            treeContainer.value.style.position = "fixed";
+            updateTreePosition();
+          }
         }
       });
     });
 
     const treeContainerClass = computed(() => {
       return {
-        'tree-container': true,
-        'tree-container-tablet': isTablet(),
+        "tree-container": true,
+        "tree-container-tablet": isTablet(),
       };
     });
 
@@ -530,8 +553,7 @@ export default {
   z-index: 100;
   bottom: 0;
   left: 0;
-  width: 402px;
-  height: 737px;
+
   transition: bottom 0.5s;
 }
 
@@ -561,15 +583,11 @@ export default {
     top: -75px;
     left: 0;
   }
-
 }
 @media only screen and (max-width: 767px) {
   .tree-container {
- 
+    z-index: -100;
     opacity: 0.1;
-   
-  
-   
   }
   .leaves {
     top: 0;
@@ -577,7 +595,6 @@ export default {
     width: 302px;
     height: 333px;
   }
-
 }
 </style>
  
