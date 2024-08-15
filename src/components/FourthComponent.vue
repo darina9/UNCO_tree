@@ -39,6 +39,7 @@ export default defineComponent({
   flex-direction: column;
   gap: 20px;
   position: relative;
+  padding: 0 10px;
 }
 .fourth__component::after {
   content: "";
@@ -46,7 +47,7 @@ export default defineComponent({
   top: 0;
   right: -40%;
   bottom: 0;
-  width: 100%; /* или нужная ширина */
+  width: 100%; 
   background-image: url("../assets/img/bg_farmer.png");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -73,7 +74,7 @@ export default defineComponent({
 @media only screen and (max-width: 1439px) and (min-width: 768px) {
   .fourth__component::after {
     top: 10px;
-    right: -10%;
+    right: 0;
     width: 415px;
     height: 415px;
     background-size: 400px 400px;
@@ -86,6 +87,7 @@ export default defineComponent({
   }
   .fourth__component::after {
     background-image: none;
+    right: 0;
   }
 
   .fourth__title {
