@@ -9,9 +9,10 @@
     <p class="fifth__title_text">
       {{ $t("fifth.title_text2") }}
     </p>
-    <button class="btn">
+
+    <a href="#HIW" class="btn-link">
       {{ $t("fifth.button") }}
-    </button>
+    </a>
     <p class="fifth__title_text">
       {{ $t("fifth.title_text3") }}
     </p>
