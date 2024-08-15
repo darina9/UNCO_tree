@@ -84,7 +84,7 @@
       "4": "Payment for the goods will be received at the moment of confirmation from the buyer, in accordance with the quantity, quality and specification.In case of disputes, a dispute is opened, where UNCO specialists are arbitrators. A solution mechanism is worked out jointly, up to inviting independent experts (see the terms of the contract).",
       "5": "You need to submit an application."
     },
-    "btn" : "Submit a request"
+    "btn": "Submit a request"
   },
   "ninth": {
     "questions": "Be the FIRST of 30 to connect for free",
@@ -96,21 +96,22 @@
     "enter_contact_info": "Enter contact information",
     "paste_messenger_link": "Paste messenger link",
     "paste_social_network_link": "Paste social network link",
-    "message": "Message",
+    "message": "",
     "enter_message": "Enter your message",
     "send": "Submit request"
   },
 
   "footer": {
-    "other_services": "Other services we offer:",
+    "other_services": "Our other services:",
     "uff_retail": "UFF for retail customers",
-    "uff_market": "UFF market",
+    "uff_market": "UFF exchange",
     "uff_investors": "UFF for investors",
-    "eco_points": "Eco points",
-    "uff_online_shops": "UFF for online shops",
+    "eco_points": "Ecopoints",
+    "uff_online_shops": "UFF for online stores",
     "unco_nft": "UNCO NFT 888",
-    "contact_us": "Contact Us",
-    "disclaimer": "All rights reserved. Any parts of this presentation are subject to change by the owner at any time without prior notice. This presentation or parts of it does not form a business proposal or part of a contract. Items are approximate and subject to negotiation. Any copying and use for commercial purposes requires the written consent of the copyright holder.",
-    "disclosure": "*All figures, designations, abbreviations and data in this web pages are solely for the purpose of explaining the pattern of operation, are not based on actual facts and events and may not be used for any other purpose (including but not limited to: investment decisions, buying, education, predictions) other than a general understanding of the business model. Trading services are provided by third-party companies under the relevant agreements and licenses of the respective countries where the sales and other transactions take place. Past performance is not a reliable indicator of future results. Your returns may increase or decrease as a result of currency fluctuations. Your capital is at risk. View Trading Disclosures on the websites of the respective trading platforms."
+    "contact_us": "Contact us",
+    "disclaimer": "All rights reserved. Any parts of this presentation are subject to change by the owner at any time without notice. This presentation or parts of this presentation do not constitute a business proposal or part of a contract. Subjects are approximate and subject to negotiation. Any copying and use for commercial purposes requires the written consent of the copyright holder.",
+    "disclosure": "*All figures, designations, abbreviations and data on this web page are intended solely to explain the scheme of operation, are not based on actual facts and events and may not be used for any other purpose (including but not limited to: investment decisions, purchase, education, forecasts) other than a general understanding of the business model. Trading services are provided by third parties under the relevant agreements and licenses of the respective countries in which sales and other transactions take place. Past results are not a reliable indicator of future results. Your profits may increase or decrease as a result of currency fluctuations. Your capital is subject to risk. Please review the Trading Information on the websites of the relevant trading platforms."
   }
 }
+
