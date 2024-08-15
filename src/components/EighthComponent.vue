@@ -7,11 +7,11 @@
           <h6 class="eighth__item_question">{{ item.question }}</h6>
           <h6 class="eighth__item_answer" :class="{ visible: item.visible }">
             {{ item.answer }}
-            <a :href="'#form'" >
-  <button class="btn" v-if="index === faqs.length - 1">
-    {{ $t("eighth.btn") }}
-  </button>
-</a>
+            <a :href="'#form'">
+              <button class="btn" v-if="index === faqs.length - 1">
+                {{ $t("eighth.btn") }}
+              </button>
+            </a>
           </h6>
         </div>
         <button
@@ -117,10 +117,11 @@ export default defineComponent({
  <style scoped >
 @import url("../assets/common-styles.css");
 .eighth__component {
-  margin-top: 660px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 0 10px;
 }
 
 .eighth__title {
@@ -152,7 +153,7 @@ export default defineComponent({
 .eighth__item_text {
   display: flex;
   flex-direction: column;
- 
+
   gap: 20px;
   flex-grow: 1;
 }
@@ -183,7 +184,7 @@ export default defineComponent({
 
 .eighth__item_answer.visible {
   visibility: visible;
-  
+
   max-height: 180px;
   opacity: 1;
 }
@@ -208,7 +209,6 @@ export default defineComponent({
   fill: #a2c33d;
 }
 .btn {
-  
   margin-top: 10px;
 }
 @media only screen and (max-width: 1439px) and (min-width: 768px) {
@@ -233,9 +233,7 @@ export default defineComponent({
   }
 
   .eighth__item_answer.visible {
- 
     max-height: 270px;
-   
   }
 
   .eighth__item_btn {
@@ -259,13 +257,14 @@ export default defineComponent({
 }
 @media only screen and (max-width: 767px) {
   .eighth__component {
-  margin-top: 120px;
-/* padding: 0 10px; */
-}
-.eighth__item_answer.visible {
-  
+    margin-top: 120px;
+    padding: 0 10px;
+  }
+  .eighth__title {
+    text-align: center;
+  }
+  .eighth__item_answer.visible {
     max-height: 400px;
-   
   }
   .eighth__item_question {
     font-size: 20px;
@@ -275,12 +274,10 @@ export default defineComponent({
     font-size: 20px;
   }
   .eighth__item {
-
-  gap: 0;
- 
-}
-.eighth__item_question {
-margin-right: 30px;
-}
+    gap: 0;
+  }
+  .eighth__item_question {
+    margin-right: 30px;
+  }
 }
 </style>
