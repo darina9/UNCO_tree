@@ -349,7 +349,7 @@
   </style>
    -->
 
-   <template>
+ <template>
   <div :class="treeContainerClass" ref="treeContainer">
     <img src="../assets/img/state_winter.svg" class="tree" ref="tree" />
     <img
@@ -428,8 +428,11 @@ export default {
 
       components.forEach((component) => {
         const rect = component.getBoundingClientRect();
-        if (rect.top >= 0 && rect.bottom <= windowHeight) {
-          currentComponentIndex = parseInt(component.dataset.index);
+        const componentIndex = parseInt(component.dataset.index);
+
+        // Проверяем, видна ли хотя бы часть компонента на экране
+        if (rect.bottom >= 0 && rect.top <= windowHeight) {
+          currentComponentIndex = componentIndex;
         }
       });
 
