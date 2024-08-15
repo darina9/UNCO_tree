@@ -6,7 +6,7 @@
     "language": "Lingua"
   },
   "first": {
-    "title":   "<span class='green-border'>«UNCO Food Futures»</span>- Sistema<br> di preordine da parte dei clienti al dettaglio.",
+    "title": "<span class='green-border'>«UNCO Food Futures»</span>- Sistema<br> di preordine da parte dei clienti al dettaglio.",
     "text_left": "La nostra soluzione aumenta le vostre entrate",
     "text_right": {
       "farmers": "per gli agricoltori",
@@ -26,7 +26,7 @@
   "third": {
     "title": "UNCO si occupa sia della pubblicità che delle vendite!",
     "title_text": "'UNCO Food Futures' Retail Smart Contract: ordini prepagati dai consumatori.",
-"subtitle": "I preordini sono",
+    "subtitle": "I preordini sono",
     "items": {
       "0": "Pianificazione efficiente della produzione e della logistica",
       "1": "Migliorare l'ecologia del pianeta",
@@ -84,7 +84,7 @@
       "4": "Il pagamento della merce sarà ricevuto al momento della conferma da parte dell'acquirente, in base alla quantità, alla qualità e alle specifiche. In caso di controversia, gli specialisti UNCO agiranno come arbitri. Il meccanismo di risoluzione viene elaborato congiuntamente, fino al coinvolgimento di esperti indipendenti (vedi condizioni contrattuali).",
       "5": "È necessario presentare una domanda"
     },
-    "btn" : "Presentare una richiesta"
+    "btn": "Presentare una richiesta"
   },
   "ninth": {
     "questions": "Siate i PRIMI su 30 a connettervi gratuitamente",
@@ -96,10 +96,23 @@
     "enter_contact_info": "Saisir les informations de contact",
     "paste_messenger_link": "Insérer un lien vers le messager",
     "paste_social_network_link": "Insérer un lien vers un média social",
-    "message": "Message",
+    "message": "",
     "enter_message": "Saisissez votre message",
     "send": "Lasciare una richiesta"
+  },
+  "footer": {
+    "other_services": "Altri servizi:",
+    "uff_retail": "UFF per i clienti al dettaglio",
+    "uff_market": "Scambio UFF",
+    "uff_investors": "UFF per gli investitori",
+    "eco_points": "Ecopunti",
+    "uff_online_shops": "UFF per i negozi online",
+    "unco_nft": "UNCO NFT 888",
+    "contact_us": "Contattateci",
+    "disclaimer": "Tutti i diritti riservati. Tutte le parti di questa presentazione sono soggette a modifiche da parte del proprietario in qualsiasi momento e senza preavviso. Questa presentazione o parti di essa non costituiscono una proposta commerciale o parte di un contratto. Gli argomenti sono approssimativi e soggetti a negoziazione. Qualsiasi copia e utilizzo a fini commerciali richiede il consenso scritto del titolare del copyright.",
+    "disclosure": "*Tutte le cifre, le denominazioni, le abbreviazioni e i dati contenuti in questa pagina web hanno il solo scopo di spiegare lo schema operativo, non si basano su fatti ed eventi reali e non possono essere utilizzati per nessun altro scopo (inclusi, ma non limitati a: decisioni di investimento, acquisto, formazione, previsioni) se non per una comprensione generale del modello di business. I servizi di trading sono forniti da terzi in base agli accordi e alle licenze dei rispettivi Paesi in cui avvengono le vendite e le altre transazioni. I risultati passati non sono un indicatore affidabile dei risultati futuri. I vostri profitti possono aumentare o diminuire a causa delle fluttuazioni valutarie. Il vostro capitale è soggetto a rischi. Si prega di consultare le Informazioni sul trading sui siti web delle relative piattaforme di trading."
   }
 }
+
 
   
