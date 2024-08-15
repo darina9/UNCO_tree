@@ -9,9 +9,9 @@
     <p class="fourth__title_text">
       {{ $t("fourth.title_text2") }}
     </p>
-    <button class="btn">
+    <a href="#HIW" class="btn-link">
       {{ $t("fourth.button") }}
-    </button>
+    </a>
     <p class="fourth__title_text">
       {{ $t("fourth.title_text3") }}
     </p>
@@ -47,7 +47,7 @@ export default defineComponent({
   top: 0;
   right: -40%;
   bottom: 0;
-  width: 100%; 
+  width: 100%;
   background-image: url("../assets/img/bg_farmer.png");
   background-repeat: no-repeat;
   background-position: right bottom;
