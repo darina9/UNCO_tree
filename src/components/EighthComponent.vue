@@ -8,7 +8,7 @@
           <h6 class="eighth__item_answer" :class="{ visible: item.visible }">
             {{ item.answer }}
             <a :href="'#form'">
-              <button class="btn" v-if="index === faqs.length - 1">
+              <button class="btn-link" v-if="index === faqs.length - 1">
                 {{ $t("eighth.btn") }}
               </button>
             </a>
