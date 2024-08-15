@@ -243,7 +243,7 @@ export default {
   
   <style scoped>
 .footer {
-  margin-top: 235px;
+  margin-top: 200px;
   width: 100%;
   background: #c7db8b;
   position: relative;
@@ -260,8 +260,8 @@ export default {
   width: 100%;
   align-items: flex-end;
 
-  padding-left: calc(50% - 720px);
-  padding-right: calc(50% - 720px);
+  padding-left: calc(50% - 940px);
+  padding-right: calc(50% - 940px);
   transform: translateY(-100%);
 }
 .footer__image_grass_1 {
@@ -288,7 +288,7 @@ export default {
 .footer__agreement {
   display: flex;
   flex-direction: column;
- 
+
   margin-left: 32px;
   gap: 10px;
   color: #313131;
@@ -298,10 +298,10 @@ export default {
   font-weight: 400;
   line-height: 166%;
 }
-.footer__center{
+.footer__center {
   display: flex;
   justify-content: center; /* Центрируем содержимое по горизонтали */
-  align-items: center; 
+  align-items: center;
   flex-direction: column;
 }
 
@@ -324,9 +324,7 @@ export default {
   width: 100%;
 }
 
-.footer__right {
-  
-}
+
 .footer__links {
   display: flex;
   gap: 50px;
@@ -395,7 +393,7 @@ export default {
   .center-footer {
     padding-left: calc(50% - 384px);
     padding-right: calc(50% - 384px);
-}
+  }
   .footer__images {
     display: flex;
 
@@ -435,9 +433,9 @@ export default {
     margin-right: 100px;
     margin-left: 20px;
   }
-  .footer__center{
-margin-right: 80px;
-}
+  .footer__center {
+    margin-right: 80px;
+  }
 
   .footer__right {
     display: flex;
@@ -468,24 +466,19 @@ margin-right: 80px;
 
 @media only screen and (max-width: 767px) {
   .footer {
- 
     margin-top: 270px;
-   
- 
   }
   .center-footer {
     padding-left: calc(50% - 160px);
     padding-right: calc(50% - 160px);
-}
+  }
 
   .footer__images {
-  
-
     width: 320px;
     transform: translateY(-100%);
   }
   .footer__image_grass_1 {
-    margin-left: 0
+    margin-left: 0;
   }
 
   .footer__image_cart {
@@ -500,50 +493,49 @@ margin-right: 80px;
     display: none;
   }
   .footer__image_grass_4 {
-   display: none;
+    display: none;
   }
   .footer__main {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding: 20px 10px 0;
   }
   .footer__center {
     order: 1;
     margin-bottom: 20px;
   }
-  
+
   .footer__right {
     order: 2;
     margin-bottom: 20px;
   }
-  
+
   .footer__links {
     order: 3;
     margin-bottom: 20px;
   }
-  
+
   .footer__agreement {
     order: 4;
     margin-bottom: 20px;
-   margin-left: 0;
+    margin-left: 0;
   }
   .footer__center_title {
-margin-top: 20px;
-  margin-bottom: 20px;
-}
-.footer__right {
-  margin-top: 20px;
-  padding-left: 0;
-}
-.footer__links {
-  display: flex;
-  gap: 47px;
-}
-.footer__info_text {
-   
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .footer__right {
+    margin-top: 20px;
+    padding-left: 0;
+  }
+  .footer__links {
+    display: flex;
+    gap: 47px;
+  }
+  .footer__info_text {
+    padding: 0 10px;
     font-size: 14px;
     margin: 0;
-  
   }
 }
 </style>
