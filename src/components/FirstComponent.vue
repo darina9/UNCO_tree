@@ -1,7 +1,7 @@
 <template>
   <div class="first__component center">
     <h1 class="first__title">
-      <p class="first__title_text " v-html="$t('first.title')"></p>
+      <p class="first__title_text" v-html="$t('first.title')"></p>
     </h1>
     <div class="first__text">
       <p class="first__text_left">{{ $t("first.text_left") }}</p>
@@ -44,6 +44,7 @@ export default defineComponent({
   flex-direction: column;
   gap: 50px;
   margin-top: 70px;
+  padding: 0 10px;
 }
 .first__text {
   display: flex;
@@ -129,11 +130,9 @@ export default defineComponent({
     font-size: 20px;
   }
   .green-border {
- width: 280px;
-   
-    
+    width: 280px;
   }
-.green-border{
+  .green-border {
     width: 280px !important;
   }
   .first__title_text {
