@@ -363,6 +363,7 @@ export default {
 }
 .btn-link {
   width: 100%;
+   text-align: center;
 }
 
 .footer__links {
