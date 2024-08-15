@@ -84,7 +84,7 @@
       "4": "Sie erhalten die Zahlung für die Ware nach Bestätigung durch den Käufer, entsprechend der Menge, Qualität und Spezifikation. Bei Streitigkeiten wird ein Streitfall eröffnet, bei dem UNCO-Spezialisten als Schiedsrichter fungieren. Ein Lösungsmechanismus wird gemeinsam entwickelt, einschließlich der Einladung unabhängiger Experten (siehe Vertragsbedingungen).",
       "5": "Sie müssen einen Antrag stellen."
     },
-    "btn" : "Eine Anfrage einreichen"
+    "btn": "Eine Anfrage einreichen"
   },
   "ninth": {
     "questions": "Seien Sie der ERSTE von 30, der sich kostenlos anschließt",
@@ -96,8 +96,20 @@
     "enter_contact_info": "Kontaktinformationen eingeben",
     "paste_messenger_link": "Messenger-Link einfügen",
     "paste_social_network_link": "Link zum sozialen Netzwerk einfügen",
-    "message": "Nachricht",
+    "message": "",
     "enter_message": "Geben Sie Ihre Nachricht ein",
     "send": "Eine Anfrage hinterlassen"
+  },
+  "footer": {
+    "other_services": "Unsere anderen Dienstleistungen:",
+    "uff_retail": "UFF für Privatkunden",
+    "uff_market": "UFF-Austausch",
+    "uff_investors": "UFF für Investoren",
+    "eco_points": "Ökopunkte",
+    "uff_online_shops": "UFF für Online-Shops",
+    "unco_nft": "UNCO NFT 888",
+    "contact_us": "Kontaktieren Sie uns",
+    "disclaimer": "Alle Rechte vorbehalten. Alle Teile dieser Präsentation können vom Eigentümer jederzeit und ohne Vorankündigung geändert werden. Diese Präsentation oder Teile davon stellen weder ein Angebot noch einen Vertragsbestandteil dar. Die Themen sind annähernd und verhandelbar. Jegliche Vervielfältigung und Nutzung zu kommerziellen Zwecken bedarf der schriftlichen Zustimmung des Rechteinhabers.",
+    "disclosure": "*Alle Zahlen, Bezeichnungen, Abkürzungen und Daten auf dieser Website dienen ausschließlich der Erläuterung des Geschäftsmodells, basieren nicht auf tatsächlichen Fakten und Ereignissen und dürfen nicht für andere Zwecke (einschließlich, aber nicht beschränkt auf, Investitionsentscheidungen, Käufe, Ausbildung, Prognosen) als zum Verständnis des Geschäftsmodells verwendet werden: Investitionsentscheidungen, Käufe, Ausbildung, Prognosen) als zum allgemeinen Verständnis des Geschäftsmodells verwendet werden. Handelsdienstleistungen werden von Dritten im Rahmen der entsprechenden Vereinbarungen und Lizenzen in den jeweiligen Ländern erbracht, in denen Verkäufe und andere Transaktionen stattfinden. In der Vergangenheit erzielte Ergebnisse sind kein verlässlicher Indikator für zukünftige Ergebnisse. Ihre Gewinne können aufgrund von Währungsschwankungen steigen oder fallen. Ihr Kapital unterliegt einem Risiko. Bitte lesen Sie die Handelsinformationen auf den Webseiten der jeweiligen Handelsplattformen."
   }
 }
