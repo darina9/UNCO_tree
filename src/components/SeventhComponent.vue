@@ -75,14 +75,16 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style scoped>
 @import url("../assets/common-styles.css");
 .seventh__component {
-  margin-top: 660px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   text-align: center;
+  align-items: center;
+  padding: 0 10px;
 }
 .seventh__title {
   color: #fefffa;
@@ -111,11 +113,15 @@ export default defineComponent({
   font-weight: 400;
   line-height: 133%;
 }
-.seventh__map_container {
+.seventh__map {
   margin-top: 20px;
-  width: 100%;
+  width: 700px;
   height: 380px;
 }
+.seventh__map_container {
+  height: 100%;
+}
+
 @media only screen and (max-width: 1439px) and (min-width: 768px) {
   .seventh__component {
     margin-top: 200px;
@@ -136,7 +142,8 @@ export default defineComponent({
     height: 204px;
   }
 
-  .seventh__map_container {
+  .seventh__map {
+    width: 470px;
     height: 424px;
   }
 }
@@ -144,6 +151,7 @@ export default defineComponent({
   .seventh__component {
     margin-top: 120px;
     padding: 0 10px;
+    align-items: center;
   }
   .seventh__title {
     font-size: 20px;
@@ -165,9 +173,10 @@ export default defineComponent({
   .seventh__map_title {
     margin-top: 10px;
   }
-  .seventh__map_container {
-   
+  .seventh__map {
+    width: 300px;
     height: 300px;
   }
 }
 </style>
+
