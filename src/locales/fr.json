@@ -6,7 +6,7 @@
     "language": "Langue"
   },
   "first": {
-    "title":   "<span class='green-border'>«UNCO Food Futures»</span>- Système<br> de pré-commande auprès des détaillants.",
+    "title": "<span class='green-border'>«UNCO Food Futures»</span>- Système<br> de pré-commande auprès des détaillants.",
     "text_left": "Notre solution augmente vos revenus",
     "text_right": {
       "farmers": "pour les agriculteurs",
@@ -84,7 +84,7 @@
       "4": "Le paiement des marchandises sera reçu au moment de la confirmation de l'acheteur, conformément à la quantité, à la qualité et aux spécifications.En cas de litige, un contentieux est ouvert, où les spécialistes de l'UNCO agissent en tant qu'arbitres. Le mécanisme de résolution est élaboré conjointement, jusqu'à l'intervention d'experts indépendants (voir les conditions contractuelles).",
       "5": "Vous devez soumettre une demande de participation"
     },
-    "btn" : "Soumettre une demande"
+    "btn": "Soumettre une demande"
   },
   "ninth": {
     "questions": "Soyez le PREMIER sur 30 à vous connecter gratuitement",
@@ -99,5 +99,17 @@
     "message": "",
     "enter_message": "Saisissez votre message",
     "send": "Déposer une demande"
+  },
+  "footer": {
+    "other_services": "Nos autres services :",
+    "uff_retail": "UFF pour les clients de détail",
+    "uff_market": "Bourse UFF",
+    "uff_investors": "L'UFF pour les investisseurs",
+    "eco_points": "Ecopoints",
+    "uff_online_shops": "UFF pour les boutiques en ligne",
+    "unco_nft": "UNCO NFT 888",
+    "contact_us": "Contactez nous",
+    "disclaimer": "Tous droits réservés. Toutes les parties de cette présentation peuvent être modifiées par le propriétaire à tout moment et sans préavis. Cette présentation ou des parties de cette présentation ne constituent pas une proposition commerciale ou une partie d'un contrat. Les sujets sont approximatifs et sujets à négociation. Toute copie ou utilisation à des fins commerciales nécessite l'accord écrit du détenteur des droits d'auteur.",
+    "disclosure": "*Tous les chiffres, désignations, abréviations et données figurant sur cette page web ont pour seul but d'expliquer le mode de fonctionnement, ne sont pas basés sur des faits et des événements réels et ne peuvent être utilisés à d'autres fins (y compris, mais sans s'y limiter : décisions d'investissement, achats, éducation, prévisions) qu'une compréhension générale du modèle d'entreprise. Les services de négociation sont fournis par des tiers dans le cadre des accords et licences pertinents des pays respectifs dans lesquels les ventes et autres transactions ont lieu. Les performances passées ne constituent pas un indicateur fiable des résultats futurs. Vos bénéfices peuvent augmenter ou diminuer en raison des fluctuations des taux de change. Votre capital est soumis à des risques. Veuillez consulter les informations relatives à la négociation sur les sites web des plateformes de négociation concernées."
   }
 }
