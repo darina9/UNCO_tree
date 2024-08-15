@@ -147,17 +147,17 @@
       </button>
       <ul class="menu-links">
         <li>
-          <a class="links " href="#for_importers">{{
+          <a class="links" href="#for_importers">{{
             $t("header.for_importers")
           }}</a>
         </li>
         <li>
-          <a class="links " href="#for_producers">{{
+          <a class="links" href="#for_producers">{{
             $t("header.for_producers")
           }}</a>
         </li>
         <li>
-          <a class="links links_max " href="#contacts">{{
+          <a class="links links_max" href="#contacts">{{
             $t("header.contacts")
           }}</a>
         </li>
@@ -213,33 +213,38 @@ export default {
     };
 
     const toggleLanguageMenu = () => {
-  isLanguageMenuActive.value = !isLanguageMenuActive.value;
-  const languageMenu = document.querySelector(".language-menu");
-  
-  // Определяем элемент, относительно которого будет позиционироваться меню
-  let referenceElement;
+      isLanguageMenuActive.value = !isLanguageMenuActive.value;
+      const languageMenu = document.querySelector(".language-menu");
 
-  if (window.innerWidth <= 1439 ) {
-    // Планшетная версия: позиционируем относительно .dropdown-menu > .menu-links > .links-language-wrapper
-    referenceElement = document.querySelector(".dropdown-menu .links-language-wrapper");
-  } else {
-    // Десктопная версия: позиционируем относительно .right-links > .links-language-wrapper
-    referenceElement = document.querySelector(".right-links .links-language-wrapper");
-  }
+      // Определяем элемент, относительно которого будет позиционироваться меню
+      let referenceElement;
 
-  if (isLanguageMenuActive.value) {
-    languageMenu.style.display = "block";
-    const rect = referenceElement.getBoundingClientRect();
+      if (window.innerWidth <= 1439) {
+        // Планшетная версия: позиционируем относительно .dropdown-menu > .menu-links > .links-language-wrapper
+        referenceElement = document.querySelector(
+          ".dropdown-menu .links-language-wrapper"
+        );
+        console.log("Mobile or Tablet detected, using dropdown-menu");
+      } else {
+        // Десктопная версия: позиционируем относительно .right-links > .links-language-wrapper
+        referenceElement = document.querySelector(
+          ".right-links .links-language-wrapper"
+        );
+      }
 
-    // Рассчитываем положение меню
-    languageMenu.style.top = `${rect.bottom + window.scrollY}px`;
-    languageMenu.style.left = `${rect.left + window.scrollX}px`;
+      if (isLanguageMenuActive.value) {
+        languageMenu.style.display = "block";
+        const rect = referenceElement.getBoundingClientRect();
 
-    setTimeout(closeLanguageMenu, 5000); // Автоматическое закрытие через 5 секунд
-  } else {
-    languageMenu.style.display = "none";
-  }
-};
+        // Рассчитываем положение меню
+        languageMenu.style.top = `${rect.bottom + window.scrollY}px`;
+        languageMenu.style.left = `${rect.left + window.scrollX}px`;
+
+        setTimeout(closeLanguageMenu, 5000); // Автоматическое закрытие через 5 секунд
+      } else {
+        languageMenu.style.display = "none";
+      }
+    };
 
     document.addEventListener("click", (event) => {
       const languageMenu = document.querySelector(".language-menu");
@@ -386,7 +391,7 @@ export default {
 }
 
 .links-language {
-  position: relative; /* Добавить позиционирование относительно этого элемента */
+  position: relative; 
 }
 .language-menu {
   position: absolute;
@@ -445,11 +450,10 @@ export default {
     display: none;
   }
 
-  .menu-links > .links{
+  .menu-links > .links {
     font-size: 14px;
   }
   .links {
-   
     padding: 0;
   }
   .header__list {
@@ -498,26 +502,24 @@ export default {
     margin-top: 50px;
     list-style: none;
     padding-left: 20px;
-   
   }
- 
 
   .menu-links > li {
     margin-bottom: 30px;
   }
 
   .menu-links .links {
-    color: #A2C33D;
-font-family: Montserrat;
-font-size: 16px;
+    color: #a2c33d;
+    font-family: Montserrat;
+    font-size: 16px;
 
-font-weight: 600;
+    font-weight: 600;
 
-padding: 10px 20px;
+    padding: 10px 20px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .center-header{
+  .center-header {
     padding-left: calc(50% - 160px);
     padding-right: calc(50% - 160px);
   }
@@ -536,16 +538,14 @@ padding: 10px 20px;
     cursor: pointer;
   }
   .logo {
- width: 60px;
-  margin-right: 0;
-}
-.header__list {
-
-  justify-content: space-between;
-
-  width: 100%;
-}
-
+    width: 60px;
+    margin-right: 0;
+  }
+  .header__list {
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 100%;
+  }
 
   .dropdown-menu {
     position: fixed;
@@ -581,22 +581,20 @@ padding: 10px 20px;
     margin-top: 50px;
     list-style: none;
     padding-left: 20px;
-   
   }
- 
 
   .menu-links > li {
     margin-bottom: 30px;
   }
 
   .menu-links .links {
-    color: #A2C33D;
-font-family: Montserrat;
-font-size: 16px;
+    color: #a2c33d;
+    font-family: Montserrat;
+    font-size: 16px;
 
-font-weight: 600;
+    font-weight: 600;
 
-padding: 10px 20px;
+    padding: 10px 20px;
   }
 }
 </style>
