@@ -45,22 +45,62 @@
         <h2 class="footer__center_title">{{ $t("footer.other_services") }}</h2>
         <ul class="footer__center_list">
           <li class="footer__center_item">
-            <button class="btn">{{ $t("footer.uff_retail") }}</button>
+            <a
+              href="https://unco.club/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-link"
+            >
+              {{ $t("footer.uff_retail") }}
+            </a>
           </li>
           <li class="footer__center_item">
-            <button class="btn">{{ $t("footer.uff_market") }}</button>
+            <a
+              href="https://unco.market/"
+              class="btn-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ $t("footer.uff_market") }}
+            </a>
           </li>
           <li class="footer__center_item">
-            <button class="btn">{{ $t("footer.uff_investors") }}</button>
+            <a
+              href="https://foodnft.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-link"
+            >
+              {{ $t("footer.uff_investors") }}
+            </a>
           </li>
           <li class="footer__center_item">
-            <button class="btn">{{ $t("footer.eco_points") }}</button>
+            <a
+              href="https://unco.bio"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-link"
+              >{{ $t("footer.eco_points") }}
+            </a>
           </li>
           <li class="footer__center_item">
-            <button class="btn">{{ $t("footer.uff_online_shops") }}</button>
+            <a
+              href="https://foodnft.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-link"
+            >
+              {{ $t("footer.uff_online_shops") }}
+            </a>
           </li>
           <li class="footer__center_item">
-            <button class="btn">{{ $t("footer.unco_nft") }}</button>
+            <a
+              href="https://unco.market/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-link"
+              >{{ $t("footer.unco_nft") }}
+            </a>
           </li>
         </ul>
       </div>
@@ -242,6 +282,7 @@ export default {
 </script>
   
   <style scoped>
+@import url("../assets/common-styles.css");
 .footer {
   margin-top: 200px;
   width: 100%;
@@ -320,10 +361,9 @@ export default {
   flex-direction: column;
   gap: 20px;
 }
-.btn {
+.btn-link {
   width: 100%;
 }
-
 
 .footer__links {
   display: flex;
