@@ -349,7 +349,7 @@
   </style>
    -->
 
-      <template>
+   <template>
   <div :class="treeContainerClass" ref="treeContainer">
     <img src="../assets/img/state_winter.svg" class="tree" ref="tree" />
     <img
@@ -597,5 +597,7 @@ export default {
   }
 }
 </style>
+ 
+  
  
   
