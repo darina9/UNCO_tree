@@ -33,7 +33,6 @@ ul {
   gap: 15px;
 }
 .green-border {
- 
   display: flex;
   border-radius: 20px 0px;
   background: #a2c33d;
@@ -44,22 +43,27 @@ ul {
   line-height: 133%;
   display: inline-flex;
 }
-.btn {
+.btn-link {
   display: flex;
-  padding: 15px;
   justify-content: center;
   align-items: center;
+  padding: 15px;
   border-radius: 8px;
   background: #bc0051;
   color: #fefffa;
   font-family: Montserrat;
   font-size: 24px;
-
   font-weight: 600;
+  text-decoration: none;
   box-shadow: none !important;
-
   border: none;
 }
+
+.btn-link:hover {
+  background: #a2c33d;
+  color: #fefffa;
+}
+
 @media only screen and (max-width: 1439px) and (min-width: 768px) {
   .btn {
     font-size: 20px;
@@ -70,12 +74,10 @@ ul {
     font-size: 20px;
   }
   .green-border {
-    width: 300px ;
-  justify-content: center;
-    
+    justify-content: center;
   }
-    .center {
+  /* .center {
   padding-left: calc(50% - 160px);
   padding-right: calc(50% - 160px);
-}
+} */
 }
