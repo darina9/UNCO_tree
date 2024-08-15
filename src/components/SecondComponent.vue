@@ -48,9 +48,10 @@ export default defineComponent({
 </script>
  
  <style scoped>
- @import url("../assets/common-styles.css");
+@import url("../assets/common-styles.css");
 .second__component {
-  margin-top: 660px;
+  margin-top: 200px;
+  padding: 0 10px;
 }
 .second__title {
   margin-bottom: 20px;
@@ -87,6 +88,8 @@ export default defineComponent({
   }
   .second__title {
     font-size: 20px;
+
+    text-align: center;
   }
   .second__text_item {
     font-size: 18px;
