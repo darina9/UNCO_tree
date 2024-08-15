@@ -26,7 +26,14 @@
         </li>
       </ul>
     </div>
-    <button class="btn">{{ $t("first.button") }}</button>
+    <a
+      href="https://foodfutures.net"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="btn-link"
+    >
+      {{ $t("first.button") }}
+    </a>
   </div>
 </template>
 <script>
