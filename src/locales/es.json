@@ -6,7 +6,7 @@
     "language": "Idioma"
   },
   "first": {
-    "title":   "<span class='green-border'>«UNCO Food Futures»</span>- Sistema<br> de pedidos anticipados  a clientes minoristas.",
+    "title": "<span class='green-border'>«UNCO Food Futures»</span>- Sistema<br> de pedidos anticipados  a clientes minoristas.",
     "text_left": "Nuestra solución aumenta sus ingresos",
     "text_right": {
       "farmers": "para agricultores",
@@ -84,7 +84,7 @@
       "4": "El pago de las mercancías se recibirá en el momento de la confirmación por parte del comprador, de acuerdo con la cantidad, calidad y especificaciones. En caso de litigio, los especialistas de la UNCO actuarán como árbitros. El mecanismo de resolución se elabora conjuntamente, hasta la participación de expertos independientes (véanse las condiciones contractuales).",
       "5": "Debe presentar una solicitud"
     },
-    "btn" : "Enviar una solicitud"
+    "btn": "Enviar una solicitud"
   },
   "ninth": {
     "questions": "Sé el PRIMERO de 30 en conectarte gratis",
@@ -99,5 +99,18 @@
     "message": "",
     "enter_message": "Saisissez votre message",
     "send": "Dejar una solicitud"
+  },
+  "footer": {
+    "other_services": "Nuestros otros servicios:",
+    "uff_retail": "UFF para clientes minoristas",
+    "uff_market": "Intercambio UFF",
+    "uff_investors": "UFF para inversores",
+    "eco_points": "Ecopuntos",
+    "uff_online_shops": "UFF para tiendas en línea",
+    "unco_nft": "UNCO NFT 888",
+    "contact_us": "Póngase en contacto con nosotros",
+    "disclaimer": "Todos los derechos reservados. Cualquier parte de esta presentación está sujeta a cambios por parte del propietario en cualquier momento y sin previo aviso. Esta presentación o partes de ella no constituyen una propuesta comercial ni parte de un contrato. Los temas son aproximados y están sujetos a negociación. Cualquier copia y uso con fines comerciales requiere el consentimiento por escrito del titular de los derechos de autor.",
+    "disclosure": "*Todas las cifras, designaciones, abreviaturas y datos de esta página web tienen como único objetivo explicar el esquema de funcionamiento, no se basan en hechos y acontecimientos reales y no pueden utilizarse para ningún otro fin (incluidos, entre otros: decisiones de inversión, compra, educación, previsiones) que no sea una comprensión general del modelo de negocio. Los servicios de negociación son prestados por terceros en virtud de los acuerdos y licencias pertinentes de los respectivos países en los que tienen lugar las ventas y otras transacciones. Los resultados pasados no son un indicador fiable de los resultados futuros. Sus beneficios pueden aumentar o disminuir como consecuencia de las fluctuaciones de las divisas. Su capital está sujeto a riesgos. Consulte la información sobre negociación en los sitios web de las plataformas de negociación correspondientes."
   }
 }
+
