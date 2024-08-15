@@ -1,5 +1,5 @@
 <template>
-  <div class="sixth__component center">
+  <div class="sixth__component center" id="HIW">
     <h1 class="sixth__title green-border">
       {{ $t("sixth.title") }}
     </h1>
