@@ -31,14 +31,15 @@ export default defineComponent({
 });
 </script>
  
- <style >
+ <style scoped>
 @import url("../assets/common-styles.css");
 .fifth__component {
-  margin-top: 680px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   position: relative;
+  padding: 0 10px;
 }
 .fifth__component::after {
   content: "";
@@ -75,7 +76,7 @@ export default defineComponent({
   }
   .fifth__component::after {
     top: 10%;
-    right: -10%;
+    right: 0;
     width: 342px;
     height: 342px;
     background-size: 342px 342px;
@@ -84,11 +85,11 @@ export default defineComponent({
 
 @media only screen and (max-width: 767px) {
   .fifth__component {
-    margin-top: 120px;
-    /* padding: 0 10px; */
+    margin: 120px 10px 0;
   }
   .fifth__component::after {
     background-image: none;
+    right: 0;
   }
   .fifth__title {
     font-size: 20px;
