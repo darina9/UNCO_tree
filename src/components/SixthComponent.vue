@@ -61,10 +61,11 @@ export default defineComponent({
 </script>
   
   
- <style >
- @import url("../assets/common-styles.css");
+ <style scoped>
+@import url("../assets/common-styles.css");
 .sixth__component {
-  margin-top: 610px;
+  margin-top: 200px;
+  padding: 0 10px;
 }
 .sixth__title {
   margin-bottom: 20px;
@@ -95,11 +96,12 @@ export default defineComponent({
 }
 @media only screen and (max-width: 767px) {
   .sixth__component {
-    margin-top: 120px;
-    padding: 0 10px;
+    margin: 120px 10px 0;
   }
   .sixth__title {
+    display: flex;
     font-size: 20px;
+    justify-content: center;
   }
   .sixth__text_item {
     font-size: 18px;
