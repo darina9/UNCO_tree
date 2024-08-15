@@ -22,14 +22,20 @@
       </button>
       <ul class="center-links">
         <li>
-          <a class="links title-semibold" href="#for_importers">{{
-            $t("header.for_importers")
-          }}</a>
+          <a
+            class="links title-semibold"
+            href="https://foodfutures.net"
+            target="_blank"
+            >{{ $t("header.for_importers") }}</a
+          >
         </li>
         <li>
-          <a class="links title-semibold" href="#for_producers">{{
-            $t("header.for_producers")
-          }}</a>
+          <a
+            class="links title-semibold"
+            href="http://unco.trade"
+            target="_blank"
+            >{{ $t("header.for_producers") }}</a
+          >
         </li>
         <li>
           <a class="links title-semibold" href="#contacts">{{
@@ -147,14 +153,20 @@
       </button>
       <ul class="menu-links">
         <li>
-          <a class="links" href="#for_importers">{{
-            $t("header.for_importers")
-          }}</a>
+          <a
+            class="links title-semibold"
+            href="https://foodfutures.net"
+            target="_blank"
+            >{{ $t("header.for_importers") }}</a
+          >
         </li>
         <li>
-          <a class="links" href="#for_producers">{{
-            $t("header.for_producers")
-          }}</a>
+          <a
+            class="links title-semibold"
+            href="http://unco.trade"
+            target="_blank"
+            >{{ $t("header.for_producers") }}</a
+          >
         </li>
         <li>
           <a class="links links_max" href="#contacts">{{
@@ -391,7 +403,7 @@ export default {
 }
 
 .links-language {
-  position: relative; 
+  position: relative;
 }
 .language-menu {
   position: absolute;
@@ -517,6 +529,10 @@ export default {
 
     padding: 10px 20px;
   }
+  .menu-links .links:hover {
+    background: #a2c33d;
+    color: #fefffa;
+  }
 }
 @media only screen and (max-width: 767px) {
   .center-header {
@@ -596,5 +612,10 @@ export default {
 
     padding: 10px 20px;
   }
+  .menu-links .links:hover {
+    background: #a2c33d;
+    color: #fefffa;
+  }
 }
 </style>
+
