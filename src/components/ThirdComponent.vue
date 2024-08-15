@@ -60,6 +60,7 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 0 10px;
 }
 .third__title {
   margin-bottom: 24px;
@@ -71,6 +72,7 @@ export default defineComponent({
 }
 .flex {
   display: flex;
+  gap: 10px;
 }
 .third__subtitle {
   color: #313131;
@@ -78,6 +80,8 @@ export default defineComponent({
   font-size: 20px;
   font-weight: 700;
   line-height: 133%;
+  display: flex;
+  align-items: center;
 }
 .third__text_item,
 .third__title_text {
@@ -101,7 +105,6 @@ export default defineComponent({
 @media only screen and (max-width: 767px) {
   .third__component {
     margin-top: 120px;
-    
   }
   .third__title {
     font-size: 20px;
