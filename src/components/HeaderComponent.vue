@@ -209,14 +209,16 @@
   </header>
 </template>
   
-  <script>
+<script>
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
+import { useRouter } from "vue-router";
 
 export default {
   setup() {
     const isLanguageMenuActive = ref(false);
     const { locale } = useI18n();
+    const router = useRouter();
 
     const closeLanguageMenu = () => {
       isLanguageMenuActive.value = false;
@@ -228,17 +230,14 @@ export default {
       isLanguageMenuActive.value = !isLanguageMenuActive.value;
       const languageMenu = document.querySelector(".language-menu");
 
-      // Определяем элемент, относительно которого будет позиционироваться меню
       let referenceElement;
 
       if (window.innerWidth <= 1439) {
-        // Планшетная версия: позиционируем относительно .dropdown-menu > .menu-links > .links-language-wrapper
         referenceElement = document.querySelector(
           ".dropdown-menu .links-language-wrapper"
         );
         console.log("Mobile or Tablet detected, using dropdown-menu");
       } else {
-        // Десктопная версия: позиционируем относительно .right-links > .links-language-wrapper
         referenceElement = document.querySelector(
           ".right-links .links-language-wrapper"
         );
@@ -248,7 +247,6 @@ export default {
         languageMenu.style.display = "block";
         const rect = referenceElement.getBoundingClientRect();
 
-        // Рассчитываем положение меню
         languageMenu.style.top = `${rect.bottom + window.scrollY}px`;
         languageMenu.style.left = `${rect.left + window.scrollX}px`;
 
@@ -271,9 +269,16 @@ export default {
 
     const changeLanguage = (lang) => {
       locale.value = lang;
+      setCookie("language", lang, 7);
       isLanguageMenuActive.value = false;
       const languageMenu = document.querySelector(".language-menu");
       languageMenu.style.display = "none";
+
+      router.replace({
+        name: router.currentRoute.value.name,
+        params: { ...router.currentRoute.value.params, lang },
+        query: router.currentRoute.value.query,
+      });
     };
 
     const closeMenu = () => {
@@ -297,6 +302,16 @@ export default {
       }
     });
 
+    function setCookie(name, value, days) {
+      let expires = "";
+      if (days) {
+        const date = new Date();
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
     return {
       isLanguageMenuActive,
       toggleLanguageMenu,
@@ -306,6 +321,7 @@ export default {
   },
 };
 </script>
+
 
  
   
