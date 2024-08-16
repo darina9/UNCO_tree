@@ -3,24 +3,25 @@ import en from './locales/en.json';
 import ru from './locales/ru.json';
 import de from './locales/de.json';
 import uk from './locales/uk.json';
-import fr from './locales/fr.json'; // Добавляем французский язык
-import es from './locales/es.json'; // Добавляем испанский язык
-import it from './locales/it.json'; // Добавляем итальянский язык
+import fr from './locales/fr.json';
+import es from './locales/es.json';
+import it from './locales/it.json';
 
 const messages = {
   en,
   ru,
   de,
   uk,
-  fr, // Добавляем французский язык
-  es, // Добавляем испанский язык
-  it  // Добавляем итальянский язык
+  fr,
+  es,
+  it,
 };
 
 const i18n = createI18n({
-  locale: 'en', // Установите язык по умолчанию
-  fallbackLocale: 'en', // Установите резервный язык
-  messages, // Установите сообщения для локалей
+  legacy: false,
+  locale: 'en',
+  fallbackLocale: 'en',
+  messages,
 });
 
 export default i18n;
