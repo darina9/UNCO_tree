@@ -6,7 +6,8 @@
     "language": "Sprache"
   },
   "first": {
-    "title": "<span class='green-border'>“UNCO Food Futures”</span>— Ein Vorbestellungssystem von Einzelhandelskunden.",
+    "title_part1": "<span class='green-border'>“UNCO Food Futures”</span>",
+    "title_part2": "Ein Vorbestellungssystem von Einzelhandelskunden.",
     "text_left": "Unsere Lösung erhöht Ihr Einkommen",
     "text_right": {
       "farmers": "Bauern",
