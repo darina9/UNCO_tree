@@ -6,7 +6,8 @@
     "language": "Idioma"
   },
   "first": {
-    "title": "<span class='green-border'>«UNCO Food Futures»</span>- Sistema<br> de pedidos anticipados  a clientes minoristas.",
+    "title_part1": "<span class='green-border'>«UNCO Food Futures»</span>",
+    "title_part2": "Sistema<br> de pedidos anticipados a clientes minoristas.",
     "text_left": "Nuestra solución aumenta sus ingresos",
     "text_right": {
       "farmers": "para agricultores",
@@ -113,4 +114,5 @@
     "disclosure": "*Todas las cifras, designaciones, abreviaturas y datos de esta página web tienen como único objetivo explicar el esquema de funcionamiento, no se basan en hechos y acontecimientos reales y no pueden utilizarse para ningún otro fin (incluidos, entre otros: decisiones de inversión, compra, educación, previsiones) que no sea una comprensión general del modelo de negocio. Los servicios de negociación son prestados por terceros en virtud de los acuerdos y licencias pertinentes de los respectivos países en los que tienen lugar las ventas y otras transacciones. Los resultados pasados no son un indicador fiable de los resultados futuros. Sus beneficios pueden aumentar o disminuir como consecuencia de las fluctuaciones de las divisas. Su capital está sujeto a riesgos. Consulte la información sobre negociación en los sitios web de las plataformas de negociación correspondientes."
   }
 }
+
 
