@@ -6,7 +6,8 @@
     "language": "Language"
   },
   "first": {
-    "title": "<span class='green-border'>“UNCO Food Futures”</span>— Pre-order system from retail customers.",
+    "title_part1": "<span class='green-border'>“UNCO Food Futures”</span>",
+    "title_part2": "Pre-order system from retail customers.",
     "text_left": "Our solution increases your revenue",
     "text_right": {
       "farmers": "for farmers",
@@ -114,4 +115,3 @@
     "disclosure": "*All figures, designations, abbreviations and data on this web page are intended solely to explain the scheme of operation, are not based on actual facts and events and may not be used for any other purpose (including but not limited to: investment decisions, purchase, education, forecasts) other than a general understanding of the business model. Trading services are provided by third parties under the relevant agreements and licenses of the respective countries in which sales and other transactions take place. Past results are not a reliable indicator of future results. Your profits may increase or decrease as a result of currency fluctuations. Your capital is subject to risk. Please review the Trading Information on the websites of the relevant trading platforms."
   }
 }
-
