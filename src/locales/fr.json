@@ -6,7 +6,8 @@
     "language": "Langue"
   },
   "first": {
-    "title": "<span class='green-border'>«UNCO Food Futures»</span>- Système<br> de pré-commande auprès des détaillants.",
+    "title_part1": "<span class='green-border'>«UNCO Food Futures»</span>",
+    "title_part2": "Système<br> de pré-commande auprès des détaillants.",
     "text_left": "Notre solution augmente vos revenus",
     "text_right": {
       "farmers": "pour les agriculteurs",
