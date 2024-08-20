@@ -6,7 +6,8 @@
     "language": "Lingua"
   },
   "first": {
-    "title": "<span class='green-border'>«UNCO Food Futures»</span>- Sistema<br> di preordine da parte dei clienti al dettaglio.",
+    "title_part1": "<span class='green-border'>«UNCO Food Futures»</span>",
+    "title_part2": "Sistema<br> di preordine da parte dei clienti al dettaglio.",
     "text_left": "La nostra soluzione aumenta le vostre entrate",
     "text_right": {
       "farmers": "per gli agricoltori",
@@ -113,6 +114,7 @@
     "disclosure": "*Tutte le cifre, le denominazioni, le abbreviazioni e i dati contenuti in questa pagina web hanno il solo scopo di spiegare lo schema operativo, non si basano su fatti ed eventi reali e non possono essere utilizzati per nessun altro scopo (inclusi, ma non limitati a: decisioni di investimento, acquisto, formazione, previsioni) se non per una comprensione generale del modello di business. I servizi di trading sono forniti da terzi in base agli accordi e alle licenze dei rispettivi Paesi in cui avvengono le vendite e le altre transazioni. I risultati passati non sono un indicatore affidabile dei risultati futuri. I vostri profitti possono aumentare o diminuire a causa delle fluttuazioni valutarie. Il vostro capitale è soggetto a rischi. Si prega di consultare le Informazioni sul trading sui siti web delle relative piattaforme di trading."
   }
 }
+
 
 
   
