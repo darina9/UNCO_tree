@@ -8,6 +8,7 @@
         class="seventh__list_item item-style"
         v-for="(item, index) in items"
         :key="index"
+        :class="{'top-zero': index === 0 || index === 2, 'top-eighty': index === 1}"
       >
         <img class="seventh__list_img" :src="getImageSrc(index)" />
         <p class="seventh__list_text">{{ item }}</p>
@@ -75,6 +76,7 @@ export default defineComponent({
 });
 </script>
 
+
 <style scoped>
 @import url("../assets/common-styles.css");
 .seventh__component {
@@ -101,10 +103,14 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: relative;
 }
 .seventh__list_img {
   width: 226px;
   height: 200px;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+  border-radius: 8px;
 }
 .seventh__map_title {
   color: #bc0051;
@@ -120,6 +126,29 @@ export default defineComponent({
 }
 .seventh__map_container {
   height: 100%;
+}
+.seventh__list_text {
+  position: absolute;
+  top:80px;
+
+  left: 50%;
+  transform: translateX(-50%);
+  color: #bc0051; 
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 133%;
+  /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);  */
+  width: 100%; 
+  text-align: center; 
+ 
+}
+.top-zero .seventh__list_text {
+  top: 0;
+}
+
+.top-eighty .seventh__list_text {
+  top: 87px;
 }
 
 @media only screen and (max-width: 1439px) and (min-width: 768px) {
@@ -177,7 +206,8 @@ export default defineComponent({
     width: 300px;
     height: 300px;
   }
+  .top-eighty .seventh__list_text {
+  top: 120px;
+}
 }
 </style>
-
-
