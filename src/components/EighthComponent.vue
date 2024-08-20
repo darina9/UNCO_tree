@@ -264,7 +264,7 @@ export default defineComponent({
     text-align: center;
   }
   .eighth__item_answer.visible {
-    max-height: 400px;
+    max-height: 700px;
   }
   .eighth__item_question {
     font-size: 20px;
@@ -278,6 +278,14 @@ export default defineComponent({
   }
   .eighth__item_question {
     margin-right: 30px;
+   
   }
+  .eighth__item_answer, .eighth__item_question {
+    max-width: 100%; /* Ограничивает ширину элемента */
+  white-space: normal; /* Позволяет тексту переноситься на новую строку */
+  overflow-wrap: break-word; /* Переносит слово на новую строку, если оно не помещается */
+  word-break: break-word; /* Переносит слово на новую строку, если оно не помещается */
+  hyphens: auto; /* Автоматически расставляет переносы в словах */
+}
 }
 </style>
