@@ -46,7 +46,7 @@
         <ul class="footer__center_list">
           <li class="footer__center_item">
             <a
-              href="https://unco.club/"
+              href="https://foodfutures.club/"
               target="_blank"
               rel="noopener noreferrer"
               class="btn-link"
@@ -56,7 +56,7 @@
           </li>
           <li class="footer__center_item">
             <a
-              href="https://unco.market/"
+              href="https://unco.exchange/"
               class="btn-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -85,7 +85,7 @@
           </li>
           <li class="footer__center_item">
             <a
-              href="https://foodnft.org/"
+              href="https://foodfutures.club/"
               target="_blank"
               rel="noopener noreferrer"
               class="btn-link"
