@@ -66,7 +66,7 @@
           </li>
           <li class="footer__center_item">
             <a
-              href="https://foodnft.org/"
+              href="https://unco.global/"
               target="_blank"
               rel="noopener noreferrer"
               class="btn-link"
@@ -95,7 +95,7 @@
           </li>
           <li class="footer__center_item">
             <a
-              href="https://unco.market/"
+              href="https://foodnft.org/"
               target="_blank"
               rel="noopener noreferrer"
               class="btn-link"
