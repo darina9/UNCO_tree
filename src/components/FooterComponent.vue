@@ -110,7 +110,7 @@
           <ul class="footer__contacts_list">
             <li class="footer__contacts_item">
               <p class="footer__contacts_text">
-                <a href="tel:+49 17667484911">+49 17667484911</a>
+                <a href="tel:+49 157 77074889> +49 157 77074889</a>
               </p>
             </li>
             <li class="footer__contacts_item">
@@ -120,10 +120,10 @@
             </li>
             <li class="footer__contacts_item">
               <p class="footer__contacts_text">
-                UNCO CLUB GmbH Westerbachstr. 47
+                UNCO Club GmbH Schönenberger Straße 49
               </p>
               <p class="footer__contacts_text">
-                60489 Frankfurt am Main Germany
+                53783 Eitorf, Germany
               </p>
               <p class="footer__contacts_text">
                 Powered by Discovery Freshness Club Oy
