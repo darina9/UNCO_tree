@@ -110,7 +110,7 @@
           <ul class="footer__contacts_list">
             <li class="footer__contacts_item">
               <p class="footer__contacts_text">
-                <a href="tel:+49 157 77074889> +49 157 77074889</a>
+                <a href="tel:+49 157 77074889"> +49 157 77074889</a>
               </p>
             </li>
             <li class="footer__contacts_item">
