@@ -349,7 +349,7 @@
   </style>
    -->
 
- <template>
+   <template>
   <div :class="treeContainerClass" ref="treeContainer">
     <img src="../assets/img/state_winter.svg" class="tree" ref="tree" />
     <img
@@ -463,6 +463,11 @@ export default {
         } else if (currentComponentIndex >= 7) {
           leavesAutumn.value.classList.add("active");
         }
+        if (currentComponentIndex >= 3) {
+      leavesSpring.value.style.opacity = "0";
+    } else {
+      leavesSpring.value.style.opacity = "1";
+    }
       }
     };
 
@@ -574,12 +579,24 @@ export default {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 1s ease-in-out;
 }
 
-.leaves.active {
-  opacity: 1;
+.leaves_spring {
+  opacity: 1; 
+  transition: opacity 1s ease-in-out; 
 }
+
+
+.leaves.active {
+  opacity: 1; 
+}
+
+
+.leaves_summer.active ~ .leaves_spring {
+  opacity: 0; 
+}
+
 
 @media only screen and (max-width: 1439px) and (min-width: 768px) {
   .leaves {
@@ -590,7 +607,7 @@ export default {
 @media only screen and (max-width: 767px) {
   .tree-container {
     z-index: -100;
-    opacity: 0.1;
+    opacity: 0.05;
   }
   .leaves {
     top: 0;
@@ -601,6 +618,7 @@ export default {
 }
 </style>
  
+  
   
  
   
