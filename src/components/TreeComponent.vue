@@ -579,12 +579,12 @@ export default {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .leaves_spring {
   opacity: 1; 
-  transition: opacity 1s ease-in-out; 
+  transition: opacity 0.5s ease-in-out; 
 }
 
 
